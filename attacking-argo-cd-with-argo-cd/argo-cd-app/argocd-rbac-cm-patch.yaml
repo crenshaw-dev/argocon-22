@@ -4,7 +4,7 @@ metadata:
   name: argocd-rbac-cm
 data:
   policy.csv: |
-    g, mcrenshaw-org, dev
+    g, mcrenshaw-org:test, dev
     p, dev, applications, get,  dev/*, allow
     p, dev, applications, sync, dev/*, allow
 
